@@ -1,0 +1,67 @@
+
+@media screen and (max-width: 768px) {
+    .img-circle img{ left: 50%; width: 50%; }
+    .img-name{ left: 52%; width: 26%; }
+    .img-floral-1 img{ left: 40%; width: 37%; }
+    .img-floral-2 img{ left: 60%; width: 40%; }
+         
+    .span-akad{
+      position: absolute;
+      top: 4%;
+      font-size: 3em;
+      left: 25%;
+      font-family: Poppins;
+    }
+  
+    .img-ring img{
+      position: absolute;
+      top: 5%;
+      left: 8%;
+      width: 10%;
+    }
+  
+    .detail-akad{
+      position: absolute;
+      top: 11%;
+      font-size: 3em;
+      left: 42%;
+      transform: translate(-50%, -50%);
+      font-family: Poppins;
+    }
+  
+    .img-glass img{
+      position: absolute;
+      top: 21%;
+      left: 5%;
+      width: 14%;
+    }
+  
+    .span-resepsi{
+      position: absolute;
+      top: 19%;
+      font-size: 3em;
+      left: 25%;
+      font-family: Poppins;
+    }
+  
+    .detail-resepsi{
+      position: absolute;
+      top: 27%;
+      font-size: 3em;
+      left: 44%;
+      transform: translate(-50%, -50%);
+      font-family: Poppins;
+    }
+  
+    #countdown {
+      /* font-size: calc(38px + 6 * ((100vw - 320px) / 680)); */
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    
+    .item {
+        width: 85%;
+        margin-left: 7%;
+    }
+}

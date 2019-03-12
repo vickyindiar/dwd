@@ -1,0 +1,83 @@
+
+
+@media screen and (max-width: 480px) {
+    .img-floral-1 img{ left: 37%; width: 46%; }
+    .img-floral-2 img{ left: 62%; width: 54%; }
+    .img-circle img{ left: 50%; width: 60%; }
+    .img-name{ left: 52%; width: 32%; }
+     
+    .span-akad{
+      position: absolute;
+      top: 4%;
+      font-size: 8vw;
+      left: 33%;
+      font-family: Poppins;
+      /* border: solid black; */
+      /* width: 100%; */
+      /* background-color: lemonchiffon; */
+    }
+  
+    .img-ring img{
+      position: absolute;
+      top: 5%;
+      left: 9%;
+      width: 17%;
+    }
+  
+    .detail-akad{
+      position: absolute;
+      top: 11vh;
+      font-size: 6vw;
+      left: 52%;
+      transform: translate(-50%, -50%);
+      font-family: Poppins;
+      /* width: 100%; */
+      /* background-color: lemonchiffon; */
+    }
+  
+    .img-glass img{
+      position: absolute;
+      top: 22%;
+      left: 7%;
+      width: 20%;
+    }
+  
+    .span-resepsi{
+      position: absolute;
+      top: 20%;
+      font-size: 8vw;
+      left: 32%;
+      font-family: Poppins;
+    }
+  
+    .detail-resepsi{
+      position: absolute;
+      top: 27%;
+      font-size: 6vw;
+      left: 52%;
+      transform: translate(-50%, -50%);
+      font-family: Poppins;
+    }
+  
+    #countdown {
+      font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #map {
+      height: 60%;
+      width: 100%;
+    }
+    .swiper-slide .title {
+      font-size: 30px;
+      font-weight: 300;
+    }
+    .swiper-slide .subtitle {
+      font-size: 18px;
+    }
+    #thanks{
+        font-size: 4em;
+    }
+}
