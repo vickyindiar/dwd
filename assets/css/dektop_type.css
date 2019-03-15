@@ -147,24 +147,24 @@ a {
 
 .span-akad{
   position: absolute;
-  top: 4%;
-  font-size: 5em;
-  left: 21%;
+  top: 4vh;
+  font-size: 7vh;
+  left: 21vw;
   font-family: Poppins;
 }
 
 .img-ring img{
   position: absolute;
-  top: 7%;
-  left: 13%;
+  top: 6vh;
+  left: 13vw;
   width: 7%;
 }
 
 .detail-akad{
   position: absolute;
   top: 17%;
-  font-size: 5em;
-  left: 30%;
+  font-size: 6vh;
+  left: 30vw;
   transform: translate(-50%, -50%);
   font-family: Poppins;
 }
@@ -179,16 +179,16 @@ a {
 .span-resepsi{
   position: absolute;
   top: 4%;
-  font-size: 5em;
-  left: 63%;
+  font-size: 7vh;
+  left: 64vw;
   font-family: Poppins;
 }
 
 .detail-resepsi{
   position: absolute;
   top: 17%;
-  font-size: 5em;
-  left: 74%;
+  font-size: 6vh;
+  left: 74vw;
   transform: translate(-50%, -50%);
   font-family: Poppins;
 }
@@ -360,7 +360,7 @@ a {
   background: linear-gradient(to left, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-@media only screen and (min-width: 1224px) {
+@media only screen and (min-width: 1025px) and (max-width: 1400px) {
 
   .span-akad{
     position: absolute;
