@@ -1,4 +1,5 @@
 
+var clickedNav = false;
 var t1 = new TimelineMax({paused: true});
 
 t1.to(".one", 0.8, { y: 12, rotation: 45, ease: Expo.easeInOut, delay: -0.8 })
@@ -10,7 +11,13 @@ t1.to(".one", 0.8, { y: 12, rotation: 45, ease: Expo.easeInOut, delay: -0.8 })
 t1.staggerFrom(".menu ul li", 1.2, {x: -200, opacity: 0, ease:Expo.easeOut}, 0.3);
 t1.reverse();
 $(document).on("click", ".toggle-btn", function() { t1.reversed(!t1.reversed());});
-$(document).on("click", "a", function() { t1.reversed(!t1.reversed()); });
+$(document).on("click", "a", function() { t1.reversed(!t1.reversed()); delayed = true; });
+function whereonclick(){
+     clickedNav = true;
+     setTimeout(()=>{
+          ShowTheToast();
+     }, 2500);
+};
 
 function initMap() {
      var basofi = {lat: -6.1631459, lng: 107.0468049};
@@ -95,12 +102,11 @@ $(window).scroll(function() {
      if (scroll == 1 || scroll == 2) { 
 
      }
-     else if(scroll >= 1100 && scroll <= 1400 ){
-          if(!showToast){
-               setTimeout(() => {
-                 ShowTheToast();
-               }, 1500);
+     else if(scroll >= 200 && scroll <= 600 ){
+          if(!showToast && !clickedNav){
+               ShowTheToast();
                showToast = true;
+               clickedNav = false;
           }
      } 
 
