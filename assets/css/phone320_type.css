@@ -84,9 +84,124 @@
     #countdown {
         /* font-size: calc(14px + 6 * ((100vw - 320px) / 680)); */
         top: 33%;
+        /* left: 50%; */
+        text-align: center;
+        font-size: 4vw;
+         width: 100%; 
+        transform: translate(-50%, -50%);
+    }
+  
+    #map {
+      height: 60%;
+      width: 100%;
+    }
+  
+  
+    .sort-text1 { display: inline-block; }
+    .long-text1 { display: none; }
+  
+    .sort-text2 { display: inline-block; }
+    .long-text2 { display: none; }
+  
+    .sort-text3 { display: inline-block; }
+    .long-text3 { display: none; }
+  
+    #thanks{
+        font-size: 3em;
+    }
+  }
+
+  
+
+
+  @media screen and (max-width: 400px) {
+    .toggle-btn {
+      width: 80px;
+      height: 65px;
+    }
+    span.one {
+      width: 35px;
+      height: 2px;
+      right: 0;
+      margin-top: 10px;
+      margin-right: 10px;
+    }
+      
+    span.two {
+      position: absolute;
+      width: 35px;
+      height: 2px;
+      right: 0;
+      background: #fff;
+      margin-top: 22px;
+      margin-right: 10px;
+    }
+    span.three {
+      position: absolute;
+      width: 35px;
+      height: 2px;
+      right: 0;
+      background: #fff;
+      margin-top: 34px;
+      margin-right: 10px;
+    }
+  
+  
+    .span-akad{
+        position: absolute;
+        top: 4%;
+        font-size: 10vw;
+        left: 33%;
+        font-family: Poppins;
+      }
+    
+      .img-ring img{
+        position: absolute;
+        top: 5%;
+        left: 9%;
+        width: 15%;
+      }
+    
+      .detail-akad{
+        position: absolute;
+        top: 12%;
+        font-size: 5vw;
         left: 50%;
-        font-size: 2vh;
-        /* width: 100%; */
+        transform: translate(-50%, -50%);
+        font-family: Poppins;
+      }
+    
+      .img-glass img{
+        position: absolute;
+        top: 18%;
+        left: 7%;
+        width: 18%;
+      }
+    
+      .span-resepsi{
+        position: absolute;
+        top: 16%;
+        font-size: 9vw;
+        left: 31%;
+        font-family: Poppins;
+      }
+    
+      .detail-resepsi{
+        position: absolute;
+        top: 24%;
+        font-size: 5vw;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: Poppins;
+      }
+  
+    #countdown {
+        /* font-size: calc(14px + 6 * ((100vw - 320px) / 680)); */
+        top: 33%;
+        /* left: 50%; */
+        text-align: center;
+        font-size: 4vw;
+         width: 100%; 
         transform: translate(-50%, -50%);
     }
   
