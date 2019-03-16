@@ -5,6 +5,10 @@
     .img-floral-2 img{ left: 62%; width: 54%; }
     .img-circle img{ left: 50%; width: 60%; }
     .img-name{ left: 52%; width: 32%; }
+
+    .img-1{
+      background-image: url(../img/main-bg-phone.jpg); 
+    }
      
     .span-akad{
       position: absolute;

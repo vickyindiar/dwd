@@ -7,6 +7,10 @@
         font-size: 8vw;
     }
 
+    .img-1{
+      background-image: url(../img/main-bg-tabletpro.jpg); 
+    }
+
     .img-circle img{ left: 50%; width: 50%; }
     .img-name{ left: 52%; width: 26%; }
     .img-floral-1 img{ left: 40%; width: 37%; }
