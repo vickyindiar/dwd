@@ -209,6 +209,12 @@
       height: 60%;
       width: 100%;
     }
+    .card-title{
+      font-size: 5vw !important;
+    }
+    .info-map{
+      font-size: 4vw !important;
+    }
   
   
     .sort-text1 { display: inline-block; }

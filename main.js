@@ -79,7 +79,7 @@ $(document).ready(function(){
             .from(".img-name svg", 1, {opacity:0})
             .from('.img-floral-1 img', 1,  { width:"0%",  ease:Power2.easeInOut})
             .from('.img-floral-2 img', 1,  {width:"0%",  ease:Power2.easeInOut});
-     }, 800);
+     }, 200);
 
 
        TweenMax.from('.garis1 img', 1,  { width:"0%",  ease:Power2.easeInOut})
@@ -90,8 +90,8 @@ $(document).ready(function(){
 
 var showToast = false;
 $(window).scroll(function() {
-     var scroll = $(window).scrollTop();
-   //  console.log(scroll);
+     var scroll = $(window).scrollTop(); 
+     console.log(scroll);
      if (scroll == 1 || scroll == 2) { 
 
      }

@@ -1,5 +1,12 @@
 @media screen and  (max-width: 1024px) {
-  
+    li:first-child {
+        font-size: 5vw;
+    }
+
+    li:not(:first-child) {
+        font-size: 8vw;
+    }
+
     .img-circle img{ left: 50%; width: 50%; }
     .img-name{ left: 52%; width: 26%; }
     .img-floral-1 img{ left: 40%; width: 37%; }

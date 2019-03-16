@@ -69,12 +69,12 @@ ul {
 li:first-child {
     color: grey;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 1.5vw;
 }
 
 li:not(:first-child) {
     color: #f37272;
-    font-size: 42px;
+    font-size: 3vw;
 }
 
 a {
