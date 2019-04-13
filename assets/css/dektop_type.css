@@ -283,7 +283,7 @@ a {
   line-height: 2em;
 }
 .item {
-  width: 45%;
+  width: 20%;
   display: inline-block;
   margin-top: 2rem;
   filter: grayscale(100%);
