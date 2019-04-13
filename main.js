@@ -20,7 +20,7 @@ function whereonclick(){
 };
 
 function initMap() {
-     var basofi = {lat: -6.1631459, lng: 107.0468049};
+     var basofi = {lat:-6.202335, lng: 107.035557};
      var map = new google.maps.Map(document.getElementById('map'), {
           zoom: 15,
           center: basofi
@@ -34,7 +34,7 @@ function initMap() {
 }
 
 function goToMaps(){
-     window.open("https://www.google.com/maps/search/?api=1&query=-6.1631459,107.0468049",'_blank');
+     window.open("https://www.google.com/maps/search/?api=1&query=-6.202335,107.035557",'_blank');
 }
 
 function ShowTheToast() {
@@ -98,7 +98,7 @@ $(document).ready(function(){
 var showToast = false;
 $(window).scroll(function() {
      var scroll = $(window).scrollTop(); 
-     console.log(scroll);
+     //console.log(scroll);
      if (scroll == 1 || scroll == 2) { 
 
      }
