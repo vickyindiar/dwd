@@ -121,8 +121,11 @@ a {
 }
 
 .img-1{
-  background-image: url(../img/main-bg-desktop.JPG); 
-  background-size: cover;
+  /* background-image: url(../img/main.JPG); 
+  background-size: cover; */
+  background: #d9a7c7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 100vh;
   width: 100%;
   background-position: center;

@@ -45,7 +45,7 @@ function ShowTheToast() {
 
 //====================================> COUNTDOWN
 
-var cD = new Date("Apr 27, 2019 00:00:00").getTime();
+var cD = new Date("Apr 27, 2019 11:00:00").getTime();
 
 var cDFunction = setInterval(() => {
      let now = new Date().getTime();
